@@ -1,2 +1,3 @@
-# hyperf-redislock
-一款hyperf可用的lock基于redis实现
+# hyperf-helper
+基于hyperf开箱即用组件集合
+   * RedisLock -基于Redis的锁实现
