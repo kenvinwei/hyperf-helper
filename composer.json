@@ -1,0 +1,23 @@
+{
+  "name": "kenvinwei/hyperf_helper",
+  "description": "hyperf常用组件集合",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "hyperf/utils": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kenvinwei\\HyperfHelper\\": "src/"
+    },
+    "files": [
+      "src/Functions.php"
+    ]
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Kenvinwei\\HyperfHelper\\ConfigProvider"
+    }
+  }
+}
